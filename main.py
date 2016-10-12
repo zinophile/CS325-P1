@@ -1,19 +1,20 @@
-#/usr/bin/python3.2
+#/usr/bin/env python
 
-# ##############################
-#                            Project 1                          #
-#   There are four algorithms that will run for    #
-#    this program to compare them. These        #
-#    algorithms will determine if there is a max  #
-# ##############################
+'''
+                      Project 1                          
+  There are four algorithms that will run for    
+  this program to compare them. These        
+  algorithms will determine if there is a max  
+'''
 
 
-# ##############################
-#                Algorithm 1: Enumeration              #
-#  Loop over each pair of indices i,j and            #
-#  compute the sum of A[k] from k = i to j.       #
-#  Keep the best sum you have found so far      #
-#  ##############################
+'''
+            Algorithm 1: Enumeration              
+  Loop over each pair of indices i,j and            
+  compute the sum of A[k] from k = i to j.       
+  Keep the best sum you have found so far   
+'''  
+
 def enumAlgo(arr):
 	idx = 0
 	sumTemp = 0
