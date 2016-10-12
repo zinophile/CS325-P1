@@ -16,7 +16,6 @@
 '''  
 
 def enumAlgo(arr):
-	idx = 0
 	sumTemp = 0
 	sumMax = 0
 	small = 0
