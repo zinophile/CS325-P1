@@ -30,7 +30,7 @@ def enumAlgo(arr):
 	large = 0
     idx = 0
 
-	for idx in range(leng)):
+	for idx in range(arr)):
 		for temp in range(idx,len(arr)):
 			sumTemp = 0  #reset temporary sum
 			for x in arr[idx:temp+1]:
